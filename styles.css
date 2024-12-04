@@ -1,0 +1,74 @@
+/* Estilizando a pagina */
+html {
+    background-color: #554865;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilizando o menu */
+
+.menu {
+    text-align: center;
+}
+
+.menu_imagem {
+    width: 200px;
+    height: 200px;
+}
+
+/* formatando o botao */
+
+.menu_botao {
+    font-size: 20px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu_botao:hover {
+    text-decoration: underline;
+    font-size: 24px;
+    color: black;
+}
+
+.menu_botao:active {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+
+/* Estilizando o conteudo */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo_imagem {
+    border-radius: 15px;
+    width: 50%;
+    margin: 10px;
+}
+
+.conteudo_titulo {
+    font-size: 40px;
+}
+
+.conteudo_texto {
+    margin: 5px;
+    width: 50%;
+    font-size: 24px;
+}
+
+/* Estilizando o rodape */
+
+.rodape {
+    bottom:0%;
+    text-align: center;
+    width: 100%;
+}
